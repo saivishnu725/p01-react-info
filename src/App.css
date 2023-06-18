@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
 
@@ -48,10 +47,17 @@ body {
 }
 
 .nav {
+  background-color: #111111;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.myname {
+  color:rgb(255, 122, 244);
+  font-family: "Concert One", monospace;
+}
+
 
 .nav-list {
   list-style: none;
@@ -63,6 +69,7 @@ body {
 }
 
 .nav-list > li > button {
+  font-weight: bold;
   border: none;
   color: inherit;
   background-color:inherit;
@@ -80,14 +87,28 @@ body {
   cursor: pointer;
 }
 
+.title {
+  padding-left: 10px;
+  font-family: monospace;
+  font-weight: 400;
+  padding-top: 40px;
+  letter-spacing: 1.025rem;
+
+}
+
 .list > li {
   padding: 5px;
-  /* font-family: Caveat, Consolas, "Courier New", monospace; */
   font-size: larger;
+}
+
+.list > li::marker {
+  font-size: 1.4rem;
+  color: rgb(153, 39, 39);
 }
 
 .footer {
   position: fixed;
+  color:#fff;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -95,17 +116,9 @@ body {
   font-size: large;
   text-align: center;
   font-style: italic;
-  background-color: rgb(172, 168, 168);
+  background-color: rgb(48, 48, 48);
   padding-bottom: 10px;
   font-family: "Ubuntu Mono", monospace;
-}
-
-.myname {
-  color:rgb(255, 15, 235);
-}
-
-.title{
-  padding-top: 40px;
 }
 
 a {
