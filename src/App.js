@@ -1,7 +1,7 @@
 import "./App.css";
-import Head from "./Head.js";
-import Foot from "./Foot.js";
-import List from "./List.js";
+import Head from "./components/Head.js";
+import Foot from "./components/Foot.js";
+import List from "./components/List.js";
 
 const title = <h1 className="title"> Fun facts about me </h1>;
 
