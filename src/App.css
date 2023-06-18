@@ -62,8 +62,22 @@ body {
   padding: 10px;
 }
 
+.nav-list > li > button {
+  border: none;
+  color: inherit;
+  background-color:inherit;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .nav-logo {
+  padding-top: 15px;
   width: 80px;
+  cursor: pointer;
 }
 
 .list > li {
