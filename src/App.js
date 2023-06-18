@@ -3,7 +3,7 @@ import Head from "./Head.js";
 import Foot from "./Foot.js";
 import List from "./List.js";
 
-const title = <h1 className="title"> Fun facts about React </h1>;
+const title = <h1 className="title"> Fun facts about me </h1>;
 
 function App() {
   return (

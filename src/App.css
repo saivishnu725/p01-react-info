@@ -7,6 +7,11 @@
   text-align: center;
 }
 
+body {
+  background-color:#242424;
+  color: #fac9c9;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -79,4 +84,17 @@
   background-color: rgb(172, 168, 168);
   padding-bottom: 10px;
   font-family: "Ubuntu Mono", monospace;
+}
+
+.myname {
+  color:rgb(255, 15, 235);
+}
+
+.title{
+  padding-top: 40px;
+}
+
+a {
+  color: inherit;
+
 }
